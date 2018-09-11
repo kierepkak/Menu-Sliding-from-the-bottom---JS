@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 150vh;
+}
+
+nav {
+    position: fixed;
+    bottom: -270px;
+    width: 100%;
+    height: 300px;
+    background-color: salmon;
+    transition: .3s linear;
+}
+
+nav.on {
+    bottom: 0;
+}
+
+article {
+    margin: 0 90px;
+    text-align: justify;
+    line-height: 200%;
+}
+
+.arrow {
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+    font-size: 50px;
+    transition: .3s linear;
+    margin-bottom: 20px;
+}
+
+.arrow.on {
+    bottom: 305px;
+    transform: rotate(-180deg);
+}
